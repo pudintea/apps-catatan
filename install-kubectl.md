@@ -1,5 +1,11 @@
 # Belajar Instal Kubectl
 
+Perintahnya :
+```
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+chmod +x kubectl
+sudo mv kubectl /usr/local/bin/
+```
 Perintah yang diberikan kepada Anda adalah perintah untuk menginstal `kubectl` di Debian 13 (Trixie).
 
 `kubectl` adalah salah satu tools utama dalam ekosistem Kubernetes. Fungsinya adalah untuk mengelola dan berkomunikasi dengan Kubernetes Cluster melalui terminal Linux.
